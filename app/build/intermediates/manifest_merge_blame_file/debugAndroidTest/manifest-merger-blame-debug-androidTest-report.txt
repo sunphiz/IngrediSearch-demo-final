@@ -1,0 +1,35 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.demo.ingredisearch.test" >
+4
+5    <uses-sdk
+5-->D:\git\Testing-demo\IngrediSearch-demo\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5395824426464165107.xml:5:5-74
+6        android:minSdkVersion="24"
+6-->D:\git\Testing-demo\IngrediSearch-demo\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5395824426464165107.xml:5:15-41
+7        android:targetSdkVersion="28" />
+7-->D:\git\Testing-demo\IngrediSearch-demo\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5395824426464165107.xml:5:42-71
+8
+9    <instrumentation
+9-->D:\git\Testing-demo\IngrediSearch-demo\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5395824426464165107.xml:11:5-15:72
+10        android:name="androidx.test.runner.AndroidJUnitRunner"
+10-->D:\git\Testing-demo\IngrediSearch-demo\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5395824426464165107.xml:11:22-76
+11        android:functionalTest="false"
+11-->D:\git\Testing-demo\IngrediSearch-demo\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5395824426464165107.xml:14:22-52
+12        android:handleProfiling="false"
+12-->D:\git\Testing-demo\IngrediSearch-demo\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5395824426464165107.xml:13:22-53
+13        android:label="Tests for com.demo.ingredisearch"
+13-->D:\git\Testing-demo\IngrediSearch-demo\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5395824426464165107.xml:15:22-70
+14        android:targetPackage="com.demo.ingredisearch" />
+14-->D:\git\Testing-demo\IngrediSearch-demo\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5395824426464165107.xml:12:22-68
+15
+16    <application
+16-->D:\git\Testing-demo\IngrediSearch-demo\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5395824426464165107.xml:7:5-9:19
+17        android:debuggable="true"
+17-->D:\git\Testing-demo\IngrediSearch-demo\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5395824426464165107.xml:7:18-43
+18        android:extractNativeLibs="false" >
+19        <uses-library android:name="android.test.runner" />
+19-->D:\git\Testing-demo\IngrediSearch-demo\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5395824426464165107.xml:8:9-60
+19-->D:\git\Testing-demo\IngrediSearch-demo\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5395824426464165107.xml:8:23-57
+20    </application>
+21
+22</manifest>

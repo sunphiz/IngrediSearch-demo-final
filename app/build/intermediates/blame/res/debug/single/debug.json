@@ -1,0 +1,154 @@
+[
+    {
+        "merged": "D:\\git\\Testing-demo\\IngrediSearch-demo\\app\\build\\intermediates\\res\\merged\\debug\\menu_filter_recipes.xml.flat",
+        "source": "D:\\git\\Testing-demo\\IngrediSearch-demo\\app\\src\\main\\res\\menu\\filter_recipes.xml"
+    },
+    {
+        "merged": "D:\\git\\Testing-demo\\IngrediSearch-demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_search_24dp.xml.flat",
+        "source": "D:\\git\\Testing-demo\\IngrediSearch-demo\\app\\src\\main\\res\\drawable-v24\\ic_search_24dp.xml"
+    },
+    {
+        "merged": "D:\\git\\Testing-demo\\IngrediSearch-demo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\git\\Testing-demo\\IngrediSearch-demo\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\git\\Testing-demo\\IngrediSearch-demo\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_list.xml.flat",
+        "source": "D:\\git\\Testing-demo\\IngrediSearch-demo\\app\\src\\main\\res\\layout\\fragment_list.xml"
+    },
+    {
+        "merged": "D:\\git\\Testing-demo\\IngrediSearch-demo\\app\\build\\intermediates\\res\\merged\\debug\\layout_view_error.xml.flat",
+        "source": "D:\\git\\Testing-demo\\IngrediSearch-demo\\app\\src\\main\\res\\layout\\view_error.xml"
+    },
+    {
+        "merged": "D:\\git\\Testing-demo\\IngrediSearch-demo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "D:\\git\\Testing-demo\\IngrediSearch-demo\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "D:\\git\\Testing-demo\\IngrediSearch-demo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\git\\Testing-demo\\IngrediSearch-demo\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\git\\Testing-demo\\IngrediSearch-demo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "D:\\git\\Testing-demo\\IngrediSearch-demo\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\git\\Testing-demo\\IngrediSearch-demo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "D:\\git\\Testing-demo\\IngrediSearch-demo\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "D:\\git\\Testing-demo\\IngrediSearch-demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_button.xml.flat",
+        "source": "D:\\git\\Testing-demo\\IngrediSearch-demo\\app\\src\\main\\res\\drawable\\bg_button.xml"
+    },
+    {
+        "merged": "D:\\git\\Testing-demo\\IngrediSearch-demo\\app\\build\\intermediates\\res\\merged\\debug\\layout_nav_header.xml.flat",
+        "source": "D:\\git\\Testing-demo\\IngrediSearch-demo\\app\\src\\main\\res\\layout\\nav_header.xml"
+    },
+    {
+        "merged": "D:\\git\\Testing-demo\\IngrediSearch-demo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "D:\\git\\Testing-demo\\IngrediSearch-demo\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\git\\Testing-demo\\IngrediSearch-demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_drawer_item_color.xml.flat",
+        "source": "D:\\git\\Testing-demo\\IngrediSearch-demo\\app\\src\\main\\res\\drawable\\drawer_item_color.xml"
+    },
+    {
+        "merged": "D:\\git\\Testing-demo\\IngrediSearch-demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_list.xml.flat",
+        "source": "D:\\git\\Testing-demo\\IngrediSearch-demo\\app\\src\\main\\res\\drawable\\ic_list.xml"
+    },
+    {
+        "merged": "D:\\git\\Testing-demo\\IngrediSearch-demo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "D:\\git\\Testing-demo\\IngrediSearch-demo\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\git\\Testing-demo\\IngrediSearch-demo\\app\\build\\intermediates\\res\\merged\\debug\\menu_drawer_actions.xml.flat",
+        "source": "D:\\git\\Testing-demo\\IngrediSearch-demo\\app\\src\\main\\res\\menu\\drawer_actions.xml"
+    },
+    {
+        "merged": "D:\\git\\Testing-demo\\IngrediSearch-demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logo_no_fill.png.flat",
+        "source": "D:\\git\\Testing-demo\\IngrediSearch-demo\\app\\src\\main\\res\\drawable\\logo_no_fill.png"
+    },
+    {
+        "merged": "D:\\git\\Testing-demo\\IngrediSearch-demo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\git\\Testing-demo\\IngrediSearch-demo\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\git\\Testing-demo\\IngrediSearch-demo\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_main.xml.flat",
+        "source": "D:\\git\\Testing-demo\\IngrediSearch-demo\\app\\src\\main\\res\\layout\\fragment_main.xml"
+    },
+    {
+        "merged": "D:\\git\\Testing-demo\\IngrediSearch-demo\\app\\build\\intermediates\\res\\merged\\debug\\font_opensans_regular.ttf.flat",
+        "source": "D:\\git\\Testing-demo\\IngrediSearch-demo\\app\\src\\main\\res\\font\\opensans_regular.ttf"
+    },
+    {
+        "merged": "D:\\git\\Testing-demo\\IngrediSearch-demo\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_search.xml.flat",
+        "source": "D:\\git\\Testing-demo\\IngrediSearch-demo\\app\\src\\main\\res\\layout\\fragment_search.xml"
+    },
+    {
+        "merged": "D:\\git\\Testing-demo\\IngrediSearch-demo\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "D:\\git\\Testing-demo\\IngrediSearch-demo\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\git\\Testing-demo\\IngrediSearch-demo\\app\\build\\intermediates\\res\\merged\\debug\\layout_listitem_recipe.xml.flat",
+        "source": "D:\\git\\Testing-demo\\IngrediSearch-demo\\app\\src\\main\\res\\layout\\listitem_recipe.xml"
+    },
+    {
+        "merged": "D:\\git\\Testing-demo\\IngrediSearch-demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logo.jpg.flat",
+        "source": "D:\\git\\Testing-demo\\IngrediSearch-demo\\app\\src\\main\\res\\drawable\\logo.jpg"
+    },
+    {
+        "merged": "D:\\git\\Testing-demo\\IngrediSearch-demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_favorite_border_24dp.xml.flat",
+        "source": "D:\\git\\Testing-demo\\IngrediSearch-demo\\app\\src\\main\\res\\drawable-v24\\ic_favorite_border_24dp.xml"
+    },
+    {
+        "merged": "D:\\git\\Testing-demo\\IngrediSearch-demo\\app\\build\\intermediates\\res\\merged\\debug\\font_opensans_semibold.ttf.flat",
+        "source": "D:\\git\\Testing-demo\\IngrediSearch-demo\\app\\src\\main\\res\\font\\opensans_semibold.ttf"
+    },
+    {
+        "merged": "D:\\git\\Testing-demo\\IngrediSearch-demo\\app\\build\\intermediates\\res\\merged\\debug\\layout_view_loading.xml.flat",
+        "source": "D:\\git\\Testing-demo\\IngrediSearch-demo\\app\\src\\main\\res\\layout\\view_loading.xml"
+    },
+    {
+        "merged": "D:\\git\\Testing-demo\\IngrediSearch-demo\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_details.xml.flat",
+        "source": "D:\\git\\Testing-demo\\IngrediSearch-demo\\app\\src\\main\\res\\layout\\fragment_details.xml"
+    },
+    {
+        "merged": "D:\\git\\Testing-demo\\IngrediSearch-demo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\git\\Testing-demo\\IngrediSearch-demo\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\git\\Testing-demo\\IngrediSearch-demo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\git\\Testing-demo\\IngrediSearch-demo\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\git\\Testing-demo\\IngrediSearch-demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_favorite_24dp.xml.flat",
+        "source": "D:\\git\\Testing-demo\\IngrediSearch-demo\\app\\src\\main\\res\\drawable-v24\\ic_favorite_24dp.xml"
+    },
+    {
+        "merged": "D:\\git\\Testing-demo\\IngrediSearch-demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "D:\\git\\Testing-demo\\IngrediSearch-demo\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "D:\\git\\Testing-demo\\IngrediSearch-demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_background.xml.flat",
+        "source": "D:\\git\\Testing-demo\\IngrediSearch-demo\\app\\src\\main\\res\\drawable-v24\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "D:\\git\\Testing-demo\\IngrediSearch-demo\\app\\build\\intermediates\\res\\merged\\debug\\navigation_navigation.xml.flat",
+        "source": "D:\\git\\Testing-demo\\IngrediSearch-demo\\app\\src\\main\\res\\navigation\\navigation.xml"
+    },
+    {
+        "merged": "D:\\git\\Testing-demo\\IngrediSearch-demo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "D:\\git\\Testing-demo\\IngrediSearch-demo\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\git\\Testing-demo\\IngrediSearch-demo\\app\\build\\intermediates\\res\\merged\\debug\\layout_view_noresults.xml.flat",
+        "source": "D:\\git\\Testing-demo\\IngrediSearch-demo\\app\\src\\main\\res\\layout\\view_noresults.xml"
+    },
+    {
+        "merged": "D:\\git\\Testing-demo\\IngrediSearch-demo\\app\\build\\intermediates\\res\\merged\\debug\\font_opensans_font.xml.flat",
+        "source": "D:\\git\\Testing-demo\\IngrediSearch-demo\\app\\src\\main\\res\\font\\opensans_font.xml"
+    },
+    {
+        "merged": "D:\\git\\Testing-demo\\IngrediSearch-demo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "D:\\git\\Testing-demo\\IngrediSearch-demo\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    }
+]

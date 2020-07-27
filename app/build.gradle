@@ -1,0 +1,123 @@
+apply plugin: 'com.android.application'
+// Adding the apply plugin statement for safeargs
+apply plugin: 'androidx.navigation.safeargs'
+
+android {
+    compileSdkVersion 28    // <= 29, due to Robolectric
+    buildToolsVersion "28.0.3"
+    defaultConfig {
+        applicationId "com.demo.ingredisearch"
+        minSdkVersion 24
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    sourceSets {
+        String sharedTestDir = 'src/sharedTest/java'
+        test {
+            java.srcDir sharedTestDir
+        }
+        androidTest {
+            java.srcDir sharedTestDir
+        }
+    }
+
+    testOptions { // for Robolectric
+        unitTests {
+            includeAndroidResources = true
+            unitTests.returnDefaultValues = true // Espresso IdlingResource Mocking related issue
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    def appCompat_version = "1.1.0"
+    implementation "androidx.appcompat:appcompat:$appCompat_version"
+    def material_version = "1.1.0"
+    implementation "com.google.android.material:material:$material_version"
+    def constraintLayout_version = "1.1.3"
+    implementation "androidx.constraintlayout:constraintlayout:$constraintLayout_version"
+
+    def retrofit_version = "2.9.0"
+    implementation "com.squareup.retrofit2:retrofit:$retrofit_version"
+    implementation "com.squareup.retrofit2:converter-gson:$retrofit_version"
+    def okHttp_version = "4.7.2"
+    implementation "com.squareup.okhttp3:logging-interceptor:$okHttp_version"
+    def glide_version = "4.11.0"
+    implementation "com.github.bumptech.glide:glide:$glide_version"
+    annotationProcessor "com.github.bumptech.glide:compiler:$glide_version"
+
+    // JUnit4
+    def junit4_version = "4.13"
+    testImplementation "junit:junit:$junit4_version"
+
+    // Hamcrest Assertion Library
+    def hamcrest_version = "2.2"
+    testImplementation "org.hamcrest:hamcrest:$hamcrest_version"
+    // For upgrading from Hamcrest 1.x
+    testImplementation "org.hamcrest:hamcrest-library:$hamcrest_version"
+
+    // Mockito
+    def mockito_version = "3.2.4"
+    testImplementation "org.mockito:mockito-core:$mockito_version"
+    androidTestImplementation "org.mockito:mockito-core:$mockito_version"
+    def dexMaker_version = "2.25.1"
+    testImplementation "com.linkedin.dexmaker:dexmaker-mockito:$dexMaker_version"
+    androidTestImplementation "com.linkedin.dexmaker:dexmaker-mockito:$dexMaker_version"
+
+    // Robolectric
+    def robolectric_version = "4.3.1"
+    testImplementation "org.robolectric:robolectric:$robolectric_version"
+
+    // androidx.fragment
+    def fragment_version = "1.3.0-alpha06" // must use for new factory stuff
+    debugImplementation "androidx.fragment:fragment-testing:$fragment_version" // FragmentScenario
+    implementation "androidx.fragment:fragment:$fragment_version"
+
+    // Navigation (TestNavHostController)
+    def nav_version = "2.3.0-rc01"
+    implementation "androidx.navigation:navigation-fragment:$nav_version"
+    implementation "androidx.navigation:navigation-ui:$nav_version"
+    androidTestImplementation "androidx.navigation:navigation-testing:$nav_version"
+    def arch_lifecycle_version = "2.2.0"
+    implementation "androidx.lifecycle:lifecycle-extensions:$arch_lifecycle_version"
+
+    def androidx_test = "1.2.0"
+//    androidTestImplementation "androidx.test:runner:$androidx_test"
+    androidTestImplementation "androidx.test:core:$androidx_test" // for ActivityScenario
+    def androidx_test_ext = "1.1.1"
+    testImplementation "androidx.test.ext:junit:$androidx_test_ext"  // AndroidJUnit4
+    androidTestImplementation "androidx.test.ext:junit:$androidx_test_ext"
+
+    // Androidx Architecture Core Testing
+    def android_core_testing_version = "2.1.0" // for InstantTaskExecutorRule
+    testImplementation "androidx.arch.core:core-testing:$android_core_testing_version"
+    androidTestImplementation "androidx.arch.core:core-testing:$android_core_testing_version"
+
+    // Espresso
+    def androidx_test_espresso = "3.2.0"
+    androidTestImplementation "androidx.test.espresso:espresso-core:$androidx_test_espresso"
+    androidTestImplementation "androidx.test.espresso:espresso-contrib:$androidx_test_espresso"
+    androidTestImplementation "androidx.test.espresso:espresso-intents:$androidx_test_espresso"
+    implementation "androidx.test.espresso:espresso-idling-resource:$androidx_test_espresso"
+
+    // UiAutomator
+    def uiautomator_version = "2.2.0"
+    androidTestImplementation "androidx.test.uiautomator:uiautomator:$uiautomator_version"
+}
